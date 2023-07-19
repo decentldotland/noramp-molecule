@@ -17,18 +17,20 @@ git pull https://github.com/decentldotland/noramp-molecule.git
 
 Then setup your `.env` file variables with your [NoRamp](noramp.io) AppID and API key
 
-```
+```env
 NORAMP_APP_ID=...
 
 NORAMP_API_KEY=...
 ```
 
-Then run the following comand
+Then run the following command
 
-```
+```bash
 npm install && npm run start
 ```
 
+## How to use
+After hosting your instance and having the base endpoint, you can use it in your MEM smart contract to request the app's payments list and validate a certain payment
 
 ## License
 This project is licensed under the [MIT License](./LICENSE).
