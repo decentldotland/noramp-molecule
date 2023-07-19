@@ -1,0 +1,27 @@
+{
+  "name": "noramp-molecule",
+  "version": "0.0.1",
+  "description": "noramp dedicated molecule",
+  "type": "module",
+  "main": "./src/app.js",
+  "scripts": {
+    "start": "node ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/decentldotland/noramp-molecule"
+  },
+  "keywords": [
+    "molecule",
+    "noramp",
+    "MEM"
+  ],
+  "author": "charmful0x",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "install": "^0.13.0"
+  }
+}
