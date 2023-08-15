@@ -30,7 +30,9 @@ npm install && npm run start
 ```
 
 ## How to use
-After hosting your instance and having the base endpoint, you can use it in your MEM smart contract to request the app's payments list and validate a certain payment
+After hosting your instance and having the base endpoint, you can use it in your MEM smart contract to request the app's payments list and validate a certain payment.
+
+Check the [contract example](./example-contract) to learn how to do a basic NoRamp payments validation in your MEM contract ***(please note the example contract is for educational purposes only, implement your own security checks)***
 
 ## License
 This project is licensed under the [MIT License](./LICENSE).
