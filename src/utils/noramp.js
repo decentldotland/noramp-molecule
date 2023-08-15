@@ -15,9 +15,8 @@ export async function getApp() {
     );
 
     const res = await response.json()
-
-    console.log("response", res);
-    return res;
+    
+    return res?.data;
   } catch (error) {
     console.log(error);
   }
