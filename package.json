@@ -1,6 +1,6 @@
 {
   "name": "noramp-molecule",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "noramp dedicated molecule",
   "type": "module",
   "main": "./src/app.js",
