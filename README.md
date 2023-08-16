@@ -15,7 +15,7 @@ git pull https://github.com/decentldotland/noramp-molecule.git
 
 ```
 
-Then setup your `.env` file variables with your [NoRamp](noramp.io) AppID and API key
+Then setup your `.env` file variables with your [NoRamp](https://noramp.io) AppID and API key
 
 ```env
 NORAMP_APP_ID=...
